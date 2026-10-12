@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: medhat-waheed-cloud-studio
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
